@@ -148,9 +148,13 @@ text-align: center;
 }
 
 
+
+
 #popular-products {
   margin-top: 45%;
 }
+
+
 
 #popular-products .grid {
   display: grid;
@@ -159,24 +163,33 @@ text-align: center;
   gap: 80px;
 }
 
+
+
 #popular-products .grid div:hover {
   cursor: pointer;
 }
 
+
+
 #popular-products .grid span {
   color: darkgrey;
 }
+
+
 
 #popular-products .image-wrapper{
   height: 100%;
   overflow:hidden;
 }
 
+
+
 #popular-products .image-wrapper img{
-  height: 100%;
   transition: all 0.5s ease-in;
   object-fit: cover;
 }
+
+
 
 #popular-products .image-wrapper img:hover{
   cursor: pointer;
