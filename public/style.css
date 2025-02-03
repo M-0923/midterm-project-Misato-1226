@@ -231,6 +231,12 @@ h3 {
   #recommendation .grid {
     grid-template-columns: repeat(2, 1fr);
   }
+
+  #popular-products .grid {
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    gap: 50px;
+  }
 }
 
 @media screen and (max-width: 666px) {
